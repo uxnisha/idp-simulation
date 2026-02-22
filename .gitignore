@@ -1,0 +1,16 @@
+# --- macOS System Files ---
+# These are the "ghost files".
+.DS_Store
+._*
+
+# --- Local Configuration ---
+# Personal notes or local settings that shouldn't be shared.
+.vscode/
+*.log
+.env
+
+# --- Documentation/IDP Specific ---
+# If you eventually use a tool like Backstage or Docusaurus
+node_modules/
+build/
+dist/
